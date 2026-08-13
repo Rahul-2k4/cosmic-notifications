@@ -1,4 +1,5 @@
 #!/usr/bin/make -f
+export PATH := /home/rahul/.cargo/bin:$(PATH)
 
 DESTDIR = debian/cosmic-notifications
 CLEAN ?= 1
